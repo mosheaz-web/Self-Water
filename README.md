@@ -1,19 +1,21 @@
-# Project Title
+# Self-Watering System
 
-A brief description of what this project does.
+This self-watering system built for the MarkerSPACE Internship at Dawson college, usues a moisture sensor to detect whether or not your plant or area of soil needs water. If it does, a water pump provides a specific volume. The process will then repeat itself and it will will continue to check the soils moisture.
 
 ## Overview and Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Uses a Moisture Sensor
+- Uses a Mini Water Pump
+- Powered by 9 v battery
+
 
 ## Getting Started
 
 ### Prerequisites
 
-- List prerequisites here
-- For example: Arduino IDE, Python, etc.
+- Arduino IDE
+- VS Code
+- Python
 
 ### Installation
 
@@ -25,22 +27,20 @@ git clone https://github.com/mosheaz-web/Self-Water.git
 cd Self-Water
 ```
 
-Include screenshots if applicable.
 
 ## Project Structure
 
 ```
 project/
 │
-├── docs/            # Additional documentation files if applicable
-├── tests/           # Test files if applicable
-├── .gitignore       # Git ignore file
+├── images           # You will find schematics, videos and picture
+├── src          # Final code
 └── README.md        # This file
 ```
 
 ## Contributing
 
-Instructions for how to contribute to this project if applicable when working on a team!
+For potential future contributions, I thought of doing some data logging. I would reccomend studying different soils and seeing which one requires more water. I was also planning to study the difference in the number  watterings  between day and night. These are some potential future routes.
 
 ## License
 
@@ -48,6 +48,6 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- Person or resource 1
-- Person or resource 2
-- Inspiration 
+- Techi Lagan ( Youtuber who provided the base for the project)
+- Joel Trudeau
+- My mom and her dying plants were a source of inspiration.
